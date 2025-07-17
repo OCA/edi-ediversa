@@ -6,7 +6,7 @@
     "summary": "Send customer invoices to Ediversa",
     "version": "17.0.1.0.0",
     "category": "EDI",
-    "website": "https://github.com/OCA/edi",
+    "website": "https://github.com/OCA/edi-ediversa",
     "author": "Sygel, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,
@@ -21,4 +21,5 @@
         "views/res_partner_views.xml",
         "views/account_tax_views.xml",
     ],
+    "maintainers": ["ValentinVinagre"],
 }
