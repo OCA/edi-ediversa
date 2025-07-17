@@ -1,2 +1,3 @@
 - [Sygel](https://www.sygel.es):
   - Manuel Regidor
+  - Valentin Vinagre

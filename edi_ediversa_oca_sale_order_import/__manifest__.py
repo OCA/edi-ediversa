@@ -6,7 +6,7 @@
     "summary": "Process sale orders from Ediversa",
     "version": "17.0.1.0.0",
     "category": "EDI",
-    "website": "https://github.com/OCA/edi",
+    "website": "https://github.com/OCA/edi-ediversa",
     "author": "Sygel, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,
@@ -16,4 +16,5 @@
         "data/edi.xml",
         "data/ir_cron.xml",
     ],
+    "maintainers": ["ValentinVinagre"],
 }
