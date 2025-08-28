@@ -181,7 +181,7 @@ class AccountMove(models.Model):
                 lambda line, tax=tax: tax.id in line.tax_ids.ids
             )
             base = sum(lines.mapped("price_subtotal"))
-            amount = tax._compute_amount(base, base)
+            amount = 0.0
             taxes.append(
                 (
                     "TAXRES",
