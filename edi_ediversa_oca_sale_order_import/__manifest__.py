@@ -4,7 +4,7 @@
 {
     "name": "Ediversa - Sale Order Import",
     "summary": "Process sale orders from Ediversa",
-    "version": "17.0.1.0.0",
+    "version": "18.0.1.0.0",
     "category": "EDI",
     "website": "https://github.com/OCA/edi-ediversa",
     "author": "Sygel, Odoo Community Association (OCA)",
