@@ -17,7 +17,13 @@ edi-ediversa
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[edi_ediversa_oca](edi_ediversa_oca/) | 17.0.1.0.0 | <a href='https://github.com/ValentinVinagre'><img src='https://github.com/ValentinVinagre.png' width='32' height='32' style='border-radius:50%;' alt='ValentinVinagre'/></a> | Ediversa - Base Module
+[edi_ediversa_oca_invoice_send](edi_ediversa_oca_invoice_send/) | 17.0.1.0.0 | <a href='https://github.com/ValentinVinagre'><img src='https://github.com/ValentinVinagre.png' width='32' height='32' style='border-radius:50%;' alt='ValentinVinagre'/></a> | Send customer invoices to Ediversa
+[edi_ediversa_oca_sale_order_import](edi_ediversa_oca_sale_order_import/) | 17.0.1.0.0 | <a href='https://github.com/ValentinVinagre'><img src='https://github.com/ValentinVinagre.png' width='32' height='32' style='border-radius:50%;' alt='ValentinVinagre'/></a> | Process sale orders from Ediversa
 
 [//]: # (end addons)
 

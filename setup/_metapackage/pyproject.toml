@@ -1,0 +1,13 @@
+[project]
+name = "odoo-addons-oca-edi-ediversa"
+version = "17.0.20250829.0"
+dependencies = [
+    "odoo-addon-edi_ediversa_oca>=17.0dev,<17.1dev",
+    "odoo-addon-edi_ediversa_oca_invoice_send>=17.0dev,<17.1dev",
+    "odoo-addon-edi_ediversa_oca_sale_order_import>=17.0dev,<17.1dev",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 17.0",
+]
