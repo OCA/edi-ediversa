@@ -185,7 +185,7 @@ class AccountMove(models.Model):
             taxes.append(
                 (
                     "TAXRES",
-                    tax.ediversa_tax_type,
+                    tax.ediversa_tax_type or "",
                     str(tax.amount),
                     str(amount),
                     str(base),
