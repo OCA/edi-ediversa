@@ -13,7 +13,7 @@ class AccountMoveLine(models.Model):
         for tax in self.tax_ids:
             taxes += (
                 "TAXLIN",
-                tax.ediversa_tax_type,
+                tax.ediversa_tax_type or "",
                 str(tax.amount),
                 str((tax.amount / 100) * self.price_subtotal),
             )
@@ -37,7 +37,7 @@ class AccountMoveLine(models.Model):
         net_price = self.price_subtotal / self.quantity if self.quantity else 0.0
 
         return [
-            ("LIN", self.product_id.barcode, "EN", str(count)),
+            ("LIN", self.product_id.barcode or "", "EN", str(count)),
             # Product description
             (
                 "IMDLIN",
@@ -49,7 +49,7 @@ class AccountMoveLine(models.Model):
             (
                 "QTYLIN",
                 "61" if self.move_id.move_type == "out_refund" else "47",
-                str(self.quantity),
+                str(self.quantity or 0),
                 uom,
             ),
             # Net price
